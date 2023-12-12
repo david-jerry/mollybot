@@ -1,0 +1,6 @@
+.env
+commands.txt
+functions.py
+__pycache__/
+.vscode
+rdtrading.sqlite3
