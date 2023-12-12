@@ -1,4 +1,4 @@
-# web: gunicorn mollybot.wsgi:application
+web: gunicorn mollybot.wsgi:application
 release: python manage.py migrate 
 redis: redis-server  # Start the Redis server
 worker: celery --app worker worker -Q tc-queue1 -l INFO -c 8
